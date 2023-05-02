@@ -24,6 +24,9 @@ public static void main(String[] args) {
     AdvancedClac adv=new AdvancedClac();
     System.out.println(adv.add(1,2));
     System.out.println(adv.divide(8, 2));
+    int i=3;
+    Integer in=(Integer) i;
+    System.out.println(in);
 }
 
 }
