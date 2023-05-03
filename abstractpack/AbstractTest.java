@@ -1,5 +1,5 @@
 package abstractpack;
-abstract class vehicle{
+abstract class Vehicle{
     abstract public void colour();
 
     public void ACon(){
@@ -8,13 +8,13 @@ abstract class vehicle{
 
 }
 
-class ford extends vehicle{
+class ford extends Vehicle{
     public void colour(){
         System.out.println("RED");
 
     }
 }
-class suzuki extends vehicle{
+class suzuki extends Vehicle{
     public void colour(){
         System.out.println("Green");
     }
@@ -24,7 +24,7 @@ public class AbstractTest{
     public static void main(String[] args) {
         ford f=new ford();
         f.colour();
-        vehicle v1 =new suzuki();
+        Vehicle v1 =new suzuki();
         v1.colour();
         };
     }

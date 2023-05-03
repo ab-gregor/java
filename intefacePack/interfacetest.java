@@ -7,7 +7,7 @@ interface Computer{
 
 }
 
-class asusVivobook implements Computer{
+class AsusVivobook implements Computer{
 
     public void graphicsCard(){
             System.out.println("gtx 1050ti");
@@ -23,11 +23,11 @@ class asusVivobook implements Computer{
     }
 }
 
-public class interfacetest{
+public class Interfacetest{
 public static void main(String[] args) {
     
 
-    asusVivobook as=new asusVivobook();
+    AsusVivobook as=new AsusVivobook();
     as.graphicsCard();
     as.CPU();
 }
